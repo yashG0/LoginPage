@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#email {
+    font-weight: bold;
+}
+
+#password {
+    font-weight: bold;
+}
+
+body {
+    background: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    /* border: 2px soild red; */
+    color: rgb(142, 178, 255);
+    position: absolute;
+    top: 35%;
+    left: 25%;
+}
+
+
+h2 {
+    color: aliceblue;
+    font-size: 40px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-bottom: 43px;
+    padding-bottom: 10px;
+}
+
+box {
+    width: 100px;
+}
+
+#email {
+    /* border-bottom: 5px solid rgb(84, 84, 222); */
+    background: none;
+    width: 95%;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    margin: 13px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#password {
+    /* border-bottom: 5px solid rgb(84, 84, 222); */
+    width: 95%;
+    background: none;
+    outline: none;
+    border: none;
+    color: aliceblue;
+    font-size: 20px;
+    margin: 13px;
+    padding: 5px;
+}
+
+#email::placeholder {
+    color: aliceblue;
+}
+
+#password::placeholder {
+    color: aliceblue;
+}
+
+#btn {
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: aliceblue;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    padding: 5px;
+    width: 25%;
+    margin: 12px 0px;
+    padding: 6px;
+    margin-left: 30%;
+    border-radius: 10px;
+    /* border: 2px soild red; */
+}
+
+.box2 i {
+    position: absolute;
+    left: -13px;
+    bottom: 93px;
+    color: aliceblue;
+}
+
+.box1 i {
+    position: absolute;
+    left: -15px;
+    bottom: 153px;
+    color: aliceblue;
+}
+
+#btn:hover {
+    color: aqua;
+    border-bottom-color: cyan;
+}
+
+
+
+#password:hover {
+    color: aqua;
+    /* background-color: black; */
+    border-color: cyan;
+}
+
+h2:hover {
+    color: cyan;
+    border-color: cyan;
+}
+
+#email:hover::-webkit-input-placeholder {
+    /* Edge */
+    color: cyan;
+}
+
+#password:hover::-webkit-input-placeholder {
+    /* Edge */
+    color: cyan;
+}
