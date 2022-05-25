@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(22, 30, 66);
+    background-color: aliceblue;
+}
+
+.navigation {
+    height: 8vw;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.content {
+    height: 30vw;
+    /* background-color: cyan; */
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    margin-top: 22px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li a {
+
+    text-decoration: none;
+}
+
+ul li {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.left {
+    margin-left: -243px;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.BlogIcon {
+    height: 55px;
+    cursor: pointer;
+}
+
+.searchBar {
+    border-radius: 12px;
+    padding: 4px;
+    padding-left: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+button.btn {
+    /* border: 2px soild red; */
+    border-radius: 12px;
+    margin: 12px;
+    padding: 4px;
+    font-family: 'Roboto Mono', monospace;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.4s;
+    /* transition-timing-function: is; */
+    /* transform-origin: is; */
+    /* transition-delay: i; */
+}
+
+.btn:hover {
+    background-color: rgb(22, 30, 66);
+    color: aliceblue;
+
+}
+
+.content-right img {
+    height: 233px;
+    width: fit-content;
+    /* border: 2px soild red; */
+    border-radius: 12px;
+}
+
+.content-right {
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.content-left {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* padding: 12px; */
+    margin-right: 12px;
+}
+
+.content-left h2 {
+    margin-top: 62px;
+}
+
+.content-left p {
+    margin-top: 12px;
+}
+
+nav ul li:hover {
+    color: black;
+    font-weight: 100;
+}
+
+.left:hover {
+    color: black;
+    font-weight: 100;
+}
+
+h2:hover {
+    color: black;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+hr {
+    width: 90%;
+    margin: auto;
+}
+
+.home-articles {
+    height: 32vw;
+    /* background-color: rgba(255, 185, 185, 0.482); */
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    width: 50%;
+}
+
+.home-articles img {
+    height: 233px;
+    width: fit-content;
+    /* border: 2px soild red; */
+    border-radius: 12px;
+}
+
+.footer {
+
+    height: 8vw;
+    /* background-color: cyan; */
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav:hover {
+    color: black;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.footer a {
+    padding: 12px;
+}
